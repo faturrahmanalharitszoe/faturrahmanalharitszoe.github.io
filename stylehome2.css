@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	font-family: Segoe UI;
+}
+
+@keyframes transitionIn{
+	from{
+		opacity: 0;
+		top: 50%;
+		transform: rotateX(-10deg);
+	}
+
+	to{
+		opacity: 1;
+		top: 45%;
+		transform: rotateX(0);
+	}
+}
+
+@keyframes slidein {
+	from{
+		width: 0px;
+	}
+	to{
+		margin-right: 700px;
+	}
+}
+
+
+.Foto_Alul img{
+	float: left;
+	width: 700px;
+	height: 657px;
+	animation-duration: 3s;
+	animation-name: slidein; 
+}
+
+.Home{
+	color: white;
+	resize: none;
+	position: fixed;
+	top: 45%;
+	left: 55%;
+	animation-duration: 3s;
+	animation-name: transitionIn; 
+}
+
+
+/* unvisited link */ /* visited link */ /* selected link */
+.index :link, .index :visited, .index :active  {
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: 200;
+	font-family: Segoe UI;
+	border: 2px solid white;
+	padding: 4px;
+	position: fixed;
+	margin-top: 4px;
+ 	text-decoration: none;
+ 	color: white;
+}
+
+/* mouse over link */
+.index :hover {
+	background-color: white;
+	text-decoration: none;
+	color: black;
+	transition: 0.6s ease;
+}
+
+@keyframes .Home {
+	from{
+		color: red;
+	}
+	to{
+		color: white;
+	}
+}
