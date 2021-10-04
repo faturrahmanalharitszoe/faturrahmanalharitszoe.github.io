@@ -2,8 +2,8 @@
 	margin: 0;
 	padding: 0;
 	font-family: Segoe UI;
-/*	animation-duration: 3s;
-	animation-name: transitionIn; */
+	animation-duration: 3s;
+	animation-name: transitionIn;
 }
 @keyframes transitionIn{
 	from{
