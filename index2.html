@@ -6,6 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title> Faturrahman Alharitszoe </title>
 	<link rel="stylesheet" href="style.css">
+	<script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
 	<header>
@@ -13,27 +14,42 @@
 			<div class = "logo"> 
 				<img src= "Logo Alul.jpg">
 			</div>
-			
 			<ul>
 				<li><a href ="#Home">Home</a></li>
+				<li><a href ="#Portfolio">Portfolio</a></li>
 				<li><a href ="#About_Me">About Me</a></li>
 				<li><a href ="#Contact">Contact</a></li>
 			</ul>
 		
-			<section id="Home">
+			<section id="Home" class="min-h-screen">
 				<h1>Faturrahman Alharitszoe</h1>
 				<p>a student at Diponegoro University</p>
 			</section>
-			<section id="About_Me">
+			<section id="Portfolio" class="flex gap-10 min-h-screen">
+				<h1>Portfolio</h1>
+				<div class="flex flex-row gap-5 mr-auto">
+					<img src="titipin.png" alt="" class="flex w-[800px]">
+					<p class="flex items-center font-bold text-2xl">Titipin Store</p>
+				</div>
+				<div class="flex flex-row gap-5 ml-auto">
+					<p class="flex items-center font-bold text-2xl">Seminar</p>
+					<img src="seminar.png" alt="" class="flex w-[800px]">
+				</div>
+				<div class="flex flex-row gap-5 mr-auto">
+					<img src="edesa grogol.png" alt="" class="flex w-[800px]">
+					<p class="flex items-center font-bold text-2xl">Edesa Grogol</p>
+				</div>
+			</section>
+			<section id="About_Me" class="min-h-screen">
 				<h1>About Me</h1>
 				<p>a student at Diponegoro University</p>
 			</section>
-			<section id="Contact">
+			<section id="Contact" class="min-h-screen">
 				<h1>Contact Me!</h1>
-					<div>
-						<p> <a href="#Line"><span class= "logo_line"><img src= "Line.png"></span></a>
-							<a href=https://www.instagram.com/faturr25_/ target="_blank"> <span class= "logo_ig"><img src= "Instagram.png"></span></a>
+					<div class="flex flex-row">
+							<a href=https://www.instagram.com/meogjabeef12/ target="_blank"> <span class= "logo_ig"><img src= "Instagram.png"></span></a>
 							<a href=https://twitter.com/Om3gaLuLz target="_blank"> <span class = "logo_twitter"><img src="Twitter.png"></span></a>
+							<a href=https://www.linkedin.com/in/faturrahman-alharitszoe-22a24b24a/ target="_blank"> <span class = "logo_linkedin"><img src="linkedin.png"></span></a>
 						</p>
 					</div>
 				</section>
