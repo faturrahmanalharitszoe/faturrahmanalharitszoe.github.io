@@ -11,25 +11,67 @@
 <body>
 	<header>
 		<div class = "main">
-			<div class = "logo"> 
-				<img src= "Logo Alul.jpg">
+			<div class="container mx-auto">
+			<div class="fixed top-0 w-full">
+				<div class="flex flex-row w-full p-5">
+				  <img src="Logo Alul.jpg" class="flex items-center w-[50px]">
+					<ul class="flex gap-2.5 p-3 ml-auto">
+					  <li><a href="#Home">Home</a></li>
+					  <li><a href="#About_Me">About Me</a></li>
+					  <li><a href="#Portfolio">Portfolio</a></li>
+					  <li><a href="#Contact">Contact</a></li>
+					</ul>
+				</div>
+			  </div>
 			</div>
-			<ul>
-				<li><a href ="#Home">Home</a></li>
-				<li><a href ="#Portfolio">Portfolio</a></li>
-				<li><a href ="#About_Me">About Me</a></li>
-				<li><a href ="#Contact">Contact</a></li>
-			</ul>
-		
 			<section id="Home" class="min-h-screen">
 				<h1>Faturrahman Alharitszoe</h1>
 				<p>a student at Diponegoro University</p>
+			</section>
+			<section id="About_Me" class="flex min-h-screen text-white gap-5">
+				<h1 class="">About Me</h1>
+				<p>"Passionate computer science student at Diponegoro University with expertise in machine learning, UI design, and front-end development. Goal-driven and adept at solving complex problems. Eager to explore internships and industry projects to make a positive impact"</p>
+				<div>
+					<h2 class="text-2xl font-bold">Education</h2>
+					<div class="grid grid-cols-2 gap-5">
+						<div class="text-right">
+							<h2 class="text-lg">Secondary School</h2>
+							<h2 class="">SMAN 2 Cibinong</h2>
+							<h2>Science</h2>
+							<h2>2017 - 2020</h2>
+						</div>
+						<div class="text-left">
+							<h2 class="text-lg">University</h2>
+							<h2>Universitas Diponegoro</h2>
+							<h2 class="">Computer Science / Information Technology</h2>
+							<h2>2020 - now</h2>
+						</div>
+					</div>
+				</div>
+				<div>
+					<h2 class="text-2xl font-bold">Experience</h2>
+					<div class="grid grid-cols-2 gap-5">
+						<div class="text-right">
+							<h2 class="text-lg">Front End Developer</h2>
+							<h2 class="">UPT Perpustakaan dan Undip Press Universitas Diponegoro</h2>
+							<h2>January 2023 - July 2023</h2>
+						</div>
+						<div class="text-left">
+							<h2 class="text-lg">Bangkit Academy</h2>
+							<h2>Machine Learning Cohort</h2>
+							<h2>February 2023 - July 2023</h2>
+						</div>
+					</div>
+				</div>
 			</section>
 			<section id="Portfolio" class="flex gap-10 min-h-screen">
 				<h1>Portfolio</h1>
 				<div class="flex flex-row gap-5 mr-auto">
 					<img src="titipin.png" alt="" class="flex w-[800px]">
-					<p class="flex items-center font-bold text-2xl">Titipin Store</p>
+					<div class="flex flex-col justify-center gap-2.5">
+						<p class="font-bold text-2xl">Titipin Store</p>
+						<a href="https://titipin-store.000webhostapp.com/" target="_blank" class="block w-fit p-2 bg-white text-black border rounded-lg hover:bg-black hover:text-white hover:border-white"> Visit Site </a>	
+					</div>
 				</div>
 				<div class="flex flex-row gap-5 ml-auto">
 					<p class="flex items-center font-bold text-2xl">Seminar</p>
@@ -37,19 +79,18 @@
 				</div>
 				<div class="flex flex-row gap-5 mr-auto">
 					<img src="edesa grogol.png" alt="" class="flex w-[800px]">
-					<p class="flex items-center font-bold text-2xl">Edesa Grogol</p>
+					<div class="flex flex-col justify-center gap-2.5">
+						<p class="font-bold text-2xl">Edesa Grogol</p>
+						<a href="https://edesagrogol.000webhostapp.com/" target="_blank" class="block w-fit p-2 bg-white text-black border rounded-lg hover:bg-black hover:text-white hover:border-white"> Visit Site </a>	
+					</div>
 				</div>
-			</section>
-			<section id="About_Me" class="min-h-screen">
-				<h1>About Me</h1>
-				<p>a student at Diponegoro University</p>
 			</section>
 			<section id="Contact" class="min-h-screen">
 				<h1>Contact Me!</h1>
-					<div class="flex flex-row">
-							<a href=https://www.instagram.com/meogjabeef12/ target="_blank"> <span class= "logo_ig"><img src= "Instagram.png"></span></a>
-							<a href=https://twitter.com/Om3gaLuLz target="_blank"> <span class = "logo_twitter"><img src="Twitter.png"></span></a>
-							<a href=https://www.linkedin.com/in/faturrahman-alharitszoe-22a24b24a/ target="_blank"> <span class = "logo_linkedin"><img src="linkedin.png"></span></a>
+					<div class="flex flex-row items-center gap-5">
+							<a href=https://www.instagram.com/meogjabeef12/ target="_blank"> <span class= "logo_ig"><img src= "Instagram.png" class="w-[50px]"></span></a>
+							<a href=https://twitter.com/Om3gaLuLz target="_blank"> <span class = "logo_twitter"><img src="Twitter.png" class="w-[60px]"></span></a>
+							<a href=https://www.linkedin.com/in/faturrahman-alharitszoe-22a24b24a/ target="_blank"> <span class = "logo_linkedin"><img src="linkedin.png" class="w-[45px]"></span></a>
 						</p>
 					</div>
 				</section>
